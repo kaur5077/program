@@ -9,6 +9,7 @@ public class Student {
         name = "Name Not Set";
         ID = 0;
     }
+    //constructor with name and id arguments
     public Student(String givenName, int givenID)
     {
           this.name = givenName;
