@@ -54,6 +54,11 @@ public class CardTrick {
             break;
         } 
         }
+        Card LuckyCard=new Card();
+        LuckyCard.setValue(4);
+        LuckyCard.setSuit("Hearts");
+        System.out.println("The Lucky card is:"+LuckyCard.getValue());
+        System.out.println("The suit is:"+LuckyCard.getSuit());
     }
 }
 
